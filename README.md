@@ -1,4 +1,3 @@
-```md
 # Trackly_
 
 Trackly_ is a Twitch bot that brings Last.fm music tracking directly into Twitch chat.
@@ -28,4 +27,3 @@ Trackly_ is a Twitch bot that brings Last.fm music tracking directly into Twitch
 ## Project Status
 
 🚧 Currently in development.
-```
