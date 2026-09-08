@@ -1,0 +1,304 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trackly_ — Your Twitch Music Companion</title>
+    <meta name="description" content="Trackly_ brings Last.fm music tracking to Twitch.">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="/" class="logo">
+            <span class="logo-icon">♪</span>
+            <span>Trackly_</span>
+        </a>
+
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#how">How it works</a>
+            <a href="#commands">Commands</a>
+            <a href="#connect" class="nav-button">Connect Twitch</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+
+                <div class="badge">
+                    <span class="status-dot"></span>
+                    Built for Twitch
+                </div>
+
+                <h1>
+                    Your music.<br>
+                    <span>Right in chat.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Trackly_ brings your Last.fm listening activity directly
+                    into Twitch chat with simple, powerful commands.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#connect" class="primary-button">
+                        Connect Twitch
+                        <span>→</span>
+                    </a>
+
+                    <a href="#features" class="secondary-button">
+                        Explore Trackly_
+                    </a>
+                </div>
+
+                <p class="small-note">
+                    Free to use • Powered by Last.fm
+                </p>
+
+            </div>
+
+            <div class="hero-card">
+                <div class="chat-window">
+
+                    <div class="chat-header">
+                        <div class="chat-channel">
+                            <span class="channel-dot"></span>
+                            Your Twitch Chat
+                        </div>
+                        <span class="live">LIVE</span>
+                    </div>
+
+                    <div class="messages">
+
+                        <div class="message">
+                            <span class="username">Viewer123</span>
+                            <span class="colon">:</span>
+                            <span>what are you listening to?</span>
+                        </div>
+
+                        <div class="message bot-message">
+                            <span class="username bot">Trackly_</span>
+                            <span class="colon">:</span>
+                            <span>Use <b>=nowplaying</b> 🎵</span>
+                        </div>
+
+                        <div class="message">
+                            <span class="username">Viewer123</span>
+                            <span class="colon">:</span>
+                            <span>=nowplaying</span>
+                        </div>
+
+                        <div class="now-playing">
+                            <div class="album">♫</div>
+
+                            <div class="track-info">
+                                <span class="playing-label">NOW PLAYING</span>
+                                <strong>Midnight Drive</strong>
+                                <span>Example Artist</span>
+                            </div>
+
+                            <div class="equalizer">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="features" class="section">
+
+            <div class="section-heading">
+                <span class="section-label">FEATURES</span>
+                <h2>Everything you need.</h2>
+                <p>
+                    Trackly_ connects Twitch chat with your Last.fm profile
+                    to make your music part of the stream.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon">♪</div>
+                    <h3>Now Playing</h3>
+                    <p>
+                        Let your viewers see exactly what you're listening
+                        to with a simple chat command.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">↻</div>
+                    <h3>Recent Tracks</h3>
+                    <p>
+                        Show your recently played music directly in Twitch
+                        without leaving chat.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">★</div>
+                    <h3>Top Music</h3>
+                    <p>
+                        Display your favorite artists and tracks using
+                        your Last.fm listening history.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">⌁</div>
+                    <h3>Twitch Native</h3>
+                    <p>
+                        Trackly_ lives in your Twitch chat and responds
+                        to commands using the <code>=</code> prefix.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="how" class="section how-section">
+
+            <div class="section-heading">
+                <span class="section-label">HOW IT WORKS</span>
+                <h2>Three steps. That's it.</h2>
+            </div>
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Connect Twitch</h3>
+                    <p>
+                        Authorize Trackly_ with your Twitch account.
+                    </p>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Connect Last.fm</h3>
+                    <p>
+                        Tell Trackly_ which Last.fm profile belongs to you.
+                    </p>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Use the commands</h3>
+                    <p>
+                        Your viewers can interact with your music directly
+                        from Twitch chat.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="commands" class="section commands-section">
+
+            <div class="section-heading">
+                <span class="section-label">COMMANDS</span>
+                <h2>Made for chat.</h2>
+            </div>
+
+            <div class="command-box">
+
+                <div class="command-row">
+                    <code>=nowplaying</code>
+                    <span>Show the currently playing track</span>
+                </div>
+
+                <div class="command-row">
+                    <code>=recent</code>
+                    <span>Show recently played tracks</span>
+                </div>
+
+                <div class="command-row">
+                    <code>=toptracks</code>
+                    <span>Show your top tracks</span>
+                </div>
+
+                <div class="command-row">
+                    <code>=topartists</code>
+                    <span>Show your top artists</span>
+                </div>
+
+                <div class="command-row">
+                    <code>=say</code>
+                    <span>Send a message through Trackly_</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="connect" class="connect-section">
+
+            <div class="connect-card">
+
+                <div class="connect-icon">♪</div>
+
+                <h2>Ready to track?</h2>
+
+                <p>
+                    Connect Trackly_ to your Twitch channel and bring
+                    your music into the conversation.
+                </p>
+
+                <a href="/oauth/twitch" class="primary-button large">
+                    Connect with Twitch
+                    <span>→</span>
+                </a>
+
+                <p class="small-note">
+                    You'll be redirected to Twitch to authorize Trackly_.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-inner">
+
+            <div class="footer-logo">
+                <span class="logo-icon">♪</span>
+                Trackly_
+            </div>
+
+            <p>
+                Music tracking for Twitch.
+            </p>
+
+            <span class="copyright">
+                © 2026 Trackly_
+            </span>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+```
